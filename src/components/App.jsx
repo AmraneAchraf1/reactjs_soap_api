@@ -15,9 +15,7 @@ import {
 import { DatePicker } from "@mui/x-date-pickers";
 import axios from "axios";
 import dayjs from "dayjs";
-import Pusher from 'pusher-js';
 import React, { useEffect, useState } from "react";
-import usePartNotification from "../hooks/usePartNotification";
 
 const soapRequest = `<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://iam.com/">
 <soapenv:Header/>
@@ -81,14 +79,6 @@ const App = () => {
     setDateNaissance("");
     setFiliere("");
   };
-
-
-
-  const notification = usePartNotification();
-
-
-  console.log(notification);
-
 
 
 
