@@ -1,0 +1,81 @@
+{
+    "S:Envelope": {
+        "children": [
+            {
+                "S:Body": {
+                    "children": [
+                        {
+                            "ns2:getEtudiantsResponse": {
+                                "xmlns:ns2": "http://iam.com/",
+                                "children": [
+                                    {
+                                        "return": {
+                                            "children": [
+                                                {
+                                                    "dateNaissance": {
+                                                        "content": "0021-08-23T00:00:00Z"
+                                                    }
+                                                },
+                                                {
+                                                    "filiere": {
+                                                        "content": "GI"
+                                                    }
+                                                },
+                                                {
+                                                    "id": {
+                                                        "content": "3"
+                                                    }
+                                                },
+                                                {
+                                                    "nom": {
+                                                        "content": "Achraf"
+                                                    }
+                                                },
+                                                {
+                                                    "prenom": {
+                                                        "content": "Amrane"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "return": {
+                                            "children": [
+                                                {
+                                                    "dateNaissance": {
+                                                        "content": "0021-08-23T00:00:00Z"
+                                                    }
+                                                },
+                                                {
+                                                    "filiere": {
+                                                        "content": "GI"
+                                                    }
+                                                },
+                                                {
+                                                    "id": {
+                                                        "content": "4"
+                                                    }
+                                                },
+                                                {
+                                                    "nom": {
+                                                        "content": "Simo"
+                                                    }
+                                                },
+                                                {
+                                                    "prenom": {
+                                                        "content": "DD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
